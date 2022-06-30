@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Consultar
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 35.497 s <<< FAILURE! - in Consultar
+Consultar.Consultar game  Time elapsed: 35.497 s  <<< ERROR!
+java.lang.IllegalArgumentException: Invalid number of path parameters. Expected 0, was 2. Redundant path parameters are: platform=pc, category=shooter.
+
