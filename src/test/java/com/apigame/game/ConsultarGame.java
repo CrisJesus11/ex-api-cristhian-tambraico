@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.Step;
 
 public class ConsultarGame {
 
-    private static String SEARCH_GAMES = "https://www.freetogame.com/api/games";
+    private static String SEARCH_GAMES = "https://www.freetogame.com/api/games?platform={platform}&category={category}";
 
     @Step("Crear game")
     public void consultarGame(String platform,String category){
